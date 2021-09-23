@@ -1,0 +1,9 @@
+C:\Users\darkz\OneDrive\Escritorio\Nueva carpeta\DotNetWebTemplateCompiler-master\DotNetWeb.Core\bin\Debug\netcoreapp3.1\DotNetWeb.Core.deps.json
+C:\Users\darkz\OneDrive\Escritorio\Nueva carpeta\DotNetWebTemplateCompiler-master\DotNetWeb.Core\bin\Debug\netcoreapp3.1\DotNetWeb.Core.dll
+C:\Users\darkz\OneDrive\Escritorio\Nueva carpeta\DotNetWebTemplateCompiler-master\DotNetWeb.Core\bin\Debug\netcoreapp3.1\DotNetWeb.Core.pdb
+C:\Users\darkz\OneDrive\Escritorio\Nueva carpeta\DotNetWebTemplateCompiler-master\DotNetWeb.Core\obj\Debug\netcoreapp3.1\DotNetWeb.Core.csprojAssemblyReference.cache
+C:\Users\darkz\OneDrive\Escritorio\Nueva carpeta\DotNetWebTemplateCompiler-master\DotNetWeb.Core\obj\Debug\netcoreapp3.1\DotNetWeb.Core.AssemblyInfoInputs.cache
+C:\Users\darkz\OneDrive\Escritorio\Nueva carpeta\DotNetWebTemplateCompiler-master\DotNetWeb.Core\obj\Debug\netcoreapp3.1\DotNetWeb.Core.AssemblyInfo.cs
+C:\Users\darkz\OneDrive\Escritorio\Nueva carpeta\DotNetWebTemplateCompiler-master\DotNetWeb.Core\obj\Debug\netcoreapp3.1\DotNetWeb.Core.csproj.CoreCompileInputs.cache
+C:\Users\darkz\OneDrive\Escritorio\Nueva carpeta\DotNetWebTemplateCompiler-master\DotNetWeb.Core\obj\Debug\netcoreapp3.1\DotNetWeb.Core.dll
+C:\Users\darkz\OneDrive\Escritorio\Nueva carpeta\DotNetWebTemplateCompiler-master\DotNetWeb.Core\obj\Debug\netcoreapp3.1\DotNetWeb.Core.pdb
