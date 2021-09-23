@@ -6,15 +6,16 @@ namespace DotNetWeb.Core.Statements
 {
     public class ForEachStatement : Statement
     {
-        public ForEachStatement(Token token1, Token token2, Statement statement)
+        public Statement Statement { get; set; }
+        public Token For { get; set; }
+        public Token Each { get; set; }
+        public ForEachStatement(Token first, Token second, Statement statement)
         {
-            Token1 = token1;
-            Token2 = token2;
+            For = first;
+            Each = second;
             Statement = statement;
         }
-        public Statement Statement { get; }
-        public Token Token1 { get; }
-        public Token Token2 { get; }
+       
         public override void Interpret()
         {
             Statement?.Interpret();

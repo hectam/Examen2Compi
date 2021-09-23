@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using DotNetWeb.Core.Expressions;
 
 namespace DotNetWeb.Core.Statements
 {
@@ -14,6 +15,17 @@ namespace DotNetWeb.Core.Statements
             Statement1 = statement1;
             Statement2 = statement2;
         }
+
+        public static Statement SequenceToken(SequenceExpression expres)
+		{
+            return new SequenceStatement(
+                new AssignationStatement(new Id(expres.Expression1.Token, expres.Expression1.Type),
+                    expres.Expression1 as TypedExpression), expres.Expression2 is SequenceExpression sequenceExpression
+                    ? SequenceToken(sequenceExpression)
+                    : new AssignationStatement(new Id(expres.Expression2.Token, expres.Expression2.Type),
+                        expres.Expression2 as TypedExpression));
+        }
+       
         public override void ValidateSemantic()
         {
             Statement1?.ValidateSemantic();
